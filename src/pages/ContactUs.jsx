@@ -7,7 +7,7 @@ export default function ContactUs() {
         <section className="py-10 px-5">
             <div className="flex flex-col-reverse md:grid grid-cols-2 gap-10">
                 <article>
-                    <h1 className="text-4xl mb-5 mt-10 font-bold">Cuentanos sobre ti</h1>
+                    <h1 className="text-4xl mb-5 mt-10 font-bold">Cuentanos queremos saber tu opinión</h1>
                     <form name="contact-form" method="post" className="flex flex-col">
                     <input type="hidden" name="form-name" value="contact-form" />
                     <label htmlFor="name">Cual es tu nombre?</label>

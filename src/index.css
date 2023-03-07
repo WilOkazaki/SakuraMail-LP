@@ -15,8 +15,8 @@ img {
 }
 
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 45px;
+  height: 45px;
 }
 
 ul {
@@ -75,15 +75,7 @@ textarea {
   padding: 15px;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-header nav{
-  display: none;
-}
 
 .hero .overlay {
   display: flex;
@@ -113,17 +105,7 @@ header nav{
 }
 
 @media (min-width: 1024px) {
-  .header nav {
-    display: block;
-  }
 
-  .header nav ul {
-    display: flex;
-  }
-
-  .header nav ul li {
-    margin: 0 10px;
-  }
 
   .hero .overlay {
     display: grid;

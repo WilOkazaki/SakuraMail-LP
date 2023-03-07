@@ -2,6 +2,7 @@ import React from 'react'
 import Button from './Button'
 import hero from '../hero.png'
 
+
 export default function Hero() {
   return (
     <div>
@@ -13,9 +14,8 @@ export default function Hero() {
                     <div>
                         <Button />
                     </div>
-                   
                </article>
-
+                 
                <article>
                     <img src={hero} alt="" />
                </article>
