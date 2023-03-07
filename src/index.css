@@ -87,22 +87,40 @@ textarea {
   margin-top: 50px;
   border-radius: 10px;
  
-  background-color: hsl(0, 0%, 30%, 20%)
+  background-image: url(./fondo2.png);
 }
 
 .hero .overlay h1 {
   font-size: 36px;
   margin-top: 50px;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .hero .overlay img {
   width: 90%;
 }
 
-.get__started {
-  background-color: hsl(0, 0%, 30%, 20%);
+.titulo h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
+
+.buttonHero {
+  padding-top: 15px;
+}
+
+.get__started {
+  background-color: hsl(0, 0%, 40%, 20%);
+}
+
 
 @media (min-width: 1024px) {
 

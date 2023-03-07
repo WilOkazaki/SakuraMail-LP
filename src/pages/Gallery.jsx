@@ -61,8 +61,12 @@ export default function Gallery() {
 
   return (
     <div>
+
+        <div className='titulo'>
+            <h1>Disfruta de los mejores Titulos</h1>
+        </div>
        
-       <div className='gallery'>
+        <div className='gallery'>
         {data.map((item, index)=> {
             return (
                 <div className='pics' key={index}>
@@ -72,7 +76,7 @@ export default function Gallery() {
         }
         
         )}
-       </div>
+        </div>
       
     </div>
   )

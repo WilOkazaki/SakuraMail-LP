@@ -2,3 +2,22 @@
   color:rgb(228, 77, 77);
   font: bold ;
 }
+
+.imgMove {
+  
+} 
+  
+  @media (min-width: 1024px) {
+    .imgMove {
+      animation: move-vector 4s linear infinite;
+    }
+    @keyframes move-vector {
+      0%{
+            transform: translateY(15px);
+        }50%{
+            transform: translateY(0px);
+        }100%{
+            transform: translateY(15px);
+        }
+    }
+  }

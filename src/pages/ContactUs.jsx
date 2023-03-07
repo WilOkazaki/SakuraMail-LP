@@ -1,5 +1,6 @@
 import React from 'react'
 import contact from "../contact.png"
+import '../App.css'
 
 export default function ContactUs() {
   return (
@@ -37,7 +38,7 @@ export default function ContactUs() {
                     ></textarea>
                     <button
                         type="submit"
-                        className="block text-left mt-5 py-2 px-6 rounded-lg shadow text-white"
+                        className="bg-pink-500 py-1 px-4 rounded shadow transition-all duration-300 hover:bg-transparent hover:text-pink-500 border border-pink-500"
                     >
                         Enviar
                     </button>
@@ -45,10 +46,12 @@ export default function ContactUs() {
                 </article>
 
                 <article>
-                <img src={contact} alt="" />
+                <img className='imgMove' src={contact} alt="" />
             </article>
             </div>
       </section>
     </div>
   )
 }
+
+

@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import hero from '../hero.png'
+import '../App.css'
 
 
 export default function Hero() {
@@ -8,16 +9,16 @@ export default function Hero() {
     <div>
         <section className='hero'>
             <div className='overlay'>
-               <article>
+               <article className='fondo'>
                     <h1 className='font-bold'>SAKURA MAIL</h1>
-                    <h2 className='font-bold'>Tu Repositorio de Anime</h2>
-                    <div>
+                    <h2 className='font-bold'>Tu Repositorio de Manga</h2>
+                    <div className='buttonHero'>
                         <Button />
                     </div>
                </article>
                  
                <article>
-                    <img src={hero} alt="" />
+                    <img className='imgMove' src={hero} alt="" />
                </article>
               
                
