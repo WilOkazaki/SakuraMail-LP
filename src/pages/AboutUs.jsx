@@ -5,8 +5,8 @@ import '../App.css'
 export default function AboutUs() {
   return (
     <div>
-        <section className="py-10 px-5 md:mt-20">
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:items-center lg:gap-10">
+        <section className=" py-10 px-5 md:mt-20">
+            <div className=" grid grid-cols-1 gap-5 md:grid-cols-2 lg:items-center lg:gap-10">
                 <article>
                     <img className='imgMove' src={about} alt="" />
                 </article>

@@ -11,7 +11,7 @@ export default function Hero() {
             <div className='overlay'>
                <article className='fondo'>
                     <h1 className='font-bold'>SAKURA MAIL</h1>
-                    <h2 className='font-bold'>Tu Repositorio de Manga</h2>
+                    <h2 className='font-bold'>Descubre y disfruta con grandes titulos del manga japonés </h2>
                     <div className='buttonHero'>
                         <Button />
                     </div>
