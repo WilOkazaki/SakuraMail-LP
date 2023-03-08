@@ -28,8 +28,9 @@ function Navbar() {
                 <NavLink to={"/"}><a>Inicio</a></NavLink>
                 <NavLink to={"/about-us"}><a>Acerca de Nosotros</a></NavLink>
                 <NavLink to={"/contact-us"}><a>Contacto</a></NavLink>
+				{user && (
 				<NavLink to={"/gallery"}><a>Galeria</a></NavLink>
-
+				)}
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
