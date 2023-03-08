@@ -5,7 +5,7 @@ import AuthContext from '../context/auth'
 import { useContext } from 'react'
 import "./main.css";
 import logo from '../logo.png'
-import Button from './Button'
+
 
 function Navbar() {
     const { user } = useContext(AuthContext)

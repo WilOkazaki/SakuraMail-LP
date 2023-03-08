@@ -1,4 +1,4 @@
-import Header from "./components/Navbar"
+
 import Hero from "./components/Hero"
 import ContactUs from "./pages/ContactUs"
 import AboutUs from "./pages/AboutUs"

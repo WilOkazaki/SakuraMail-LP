@@ -12,11 +12,11 @@ export default function AboutUs() {
                 </article>
 
                 <article>
-                    <h1 className="font-bold text-4xl mb-5 mt-10 md:mt-0">
-                    Porque hemos creado esta APP?
+                    <h1 className="font-bold text-6xl mb-5 mt-10 md:mt-0">
+                    QUIENES SOMOS?
                     </h1>
-                    <p>
-                    El animé resulta ser una descripción generada desde la creación, a partir de una interpretación del mundo, además es objeto de una reinterpretación que lleva hacia una ulterior representación subjetiva por parte de cada aficionado.
+                    <p >
+                    Somos un grupo de personas sin fines de lucro, amantes del anime y manga japonés, te ofrecemos una galería de imágenes tipo portada de manga para que puedas disfrutar de tus mejores personajes, a futuro nuestra web, podrá contar con muchas más opciones como descargas y links directos de los mangas para su lectura, muchas gracias por preferirnos.
                     </p>
                 </article>
             </div>
