@@ -21,3 +21,14 @@
         }
     }
   }
+
+  .error {
+    max-width: 25%;
+  }
+
+  @media (max-width: 1024px) {
+    .error{
+      max-width: 70%;
+    }
+    
+  }
